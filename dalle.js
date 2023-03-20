@@ -4,7 +4,7 @@
 
 
 function dalle() {
-  const apiKey = "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";
+  const apiKey = <API_KEY>;
   const apiUrl = "https://api.openai.com/v1/images/generations";
   let entrada = document.getElementById("text").value;
 
